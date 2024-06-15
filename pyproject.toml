@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "djob-tracker"
+version = "0.1.0"
+description = "Online Job tracking and resume organizer"
+authors = ["Rich Kevan <rskevan@me.com>"]
+readme = "README.md"
+packages = [{include = "/"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
